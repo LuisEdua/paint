@@ -3,6 +3,7 @@ from handler import Handler
 
 def main():
     window = tk.Tk()
+    window.title("Paint")
     Handler(window)
     window.mainloop()
 
